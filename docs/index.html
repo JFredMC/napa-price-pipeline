@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ñapa · Pipeline de precios</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#f7f7f9;--card:#fff;--fg:#1d1d27;--muted:#666;--acc:#0e7c66;--warn:#fff4d6;--bd:#e5e5ea}
+@media (prefers-color-scheme:dark){:root{--bg:#111318;--card:#1b1e25;--fg:#e9e9ef;--muted:#9aa;--warn:#3a3218;--bd:#2c3038}}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+main{max-width:1100px;margin:auto;padding:24px}h1{margin:0 0 4px}p.sub{color:var(--muted);margin:0 0 20px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;margin-bottom:16px}
+.kpi b{display:block;font-size:28px;color:var(--acc)}.kpi span{color:var(--muted);font-size:13px}
+.notice{background:var(--warn);border-radius:12px;padding:12px 16px;margin-bottom:16px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:6px;border-bottom:1px solid var(--bd)}
+td.n{text-align:right}a{color:var(--acc)}.two{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(420px,1fr))}
+footer{color:var(--muted);font-size:13px;margin-top:24px}
+</style>
+</head>
+<body><main>
+<h1>Ñapa · Pipeline de precios</h1>
+<p class="sub">Precios reales de supermercados colombianos, ingeridos a diario desde <a href="https://napaofertas.com">Ñapa</a> y modelados con dbt + DuckDB.</p>
+<div id="notice"></div>
+<div class="grid" id="kpis"></div>
+<div class="two">
+  <div class="card"><h3>Índice de precios por tienda (base 100)</h3><canvas id="idx"></canvas></div>
+  <div class="card"><h3>Ofertas por categoría (último día)</h3><canvas id="cat"></canvas></div>
+</div>
+<div class="card"><h3>Descuento promedio por categoría y tienda (último día)</h3><canvas id="disc"></canvas></div>
+<div class="card"><h3>Mayores descuentos de hoy</h3><table id="top"></table></div>
+<div class="card"><h3>Últimos cambios de precio</h3><div id="changes"></div></div>
+<div class="card"><h3>Mejor día para comprar</h3><div id="best"></div></div>
+<footer id="foot"></footer>
+</main>
+<script>
+const fmt=n=>new Intl.NumberFormat('es-CO',{style:'currency',currency:'COP',maximumFractionDigits:0}).format(n);
+const colors={jumbo:'#2e7d32',olimpica:'#c62828'};
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+fetch('data/dashboard.json').then(r=>r.json()).then(d=>{
+  const s=d.summary;
+  if(s.days<14) document.getElementById('notice').innerHTML=`<div class="notice">⚠️ Historia corta: hay <b>${s.days}</b> día(s) de datos (desde ${s.first_date}). El índice, los cambios de precio y el "mejor día para comprar" se vuelven significativos a medida que se acumulan snapshots diarios.</div>`;
+  const k=[[s.offers.toLocaleString('es-CO'),'productos rastreados'],[s.observations.toLocaleString('es-CO'),'observaciones de precio'],[s.days,'días de historia'],[s.stores.length,'tiendas con precio real'],[s.categories,'categorías'],[s.price_changes,'cambios de precio']];
+  document.getElementById('kpis').innerHTML=k.map(([v,l])=>`<div class="card kpi"><b>${v}</b><span>${l}</span></div>`).join('');
+  const dates=[...new Set(d.index_by_store.map(r=>r.date))];
+  new Chart(idx,{type:'line',data:{labels:dates,datasets:s.stores.map(st=>({label:st,borderColor:colors[st],backgroundColor:colors[st],data:dates.map(dt=>(d.index_by_store.find(r=>r.store_id==st&&r.date==dt)||{}).price_index??null)}))},options:{scales:{y:{suggestedMin:95,suggestedMax:105}}}});
+  const cats=[...new Set(d.category_snapshot.map(r=>r.category))];
+  const ds=key=>s.stores.map(st=>({label:st,backgroundColor:colors[st],data:cats.map(c=>(d.category_snapshot.find(r=>r.category==c&&r.store_id==st)||{})[key]??0)}));
+  new Chart(cat,{type:'bar',data:{labels:cats,datasets:ds('offers')}});
+  new Chart(disc,{type:'bar',data:{labels:cats,datasets:ds('avg_discount_pct')},options:{scales:{y:{title:{display:true,text:'% descuento vs precio de lista'}}}}});
+  document.getElementById('top').innerHTML='<tr><th>Producto</th><th>Tienda</th><th>Categoría</th><th>Antes</th><th>Ahora</th><th>Desc.</th></tr>'+d.top_discounts.map(r=>`<tr><td><a href="${esc(r.url)}" rel="noopener" target="_blank">${esc(r.title)}</a></td><td>${r.store_id}</td><td>${r.category}</td><td class="n">${fmt(r.list_price)}</td><td class="n">${fmt(r.price)}</td><td class="n">${r.discount_pct}%</td></tr>`).join('');
+  document.getElementById('changes').innerHTML=d.price_changes.length?'<table><tr><th>Producto</th><th>Tienda</th><th>Fecha</th><th>Antes</th><th>Ahora</th><th>Cambio</th></tr>'+d.price_changes.map(r=>`<tr><td>${esc(r.title)}</td><td>${r.store_id}</td><td>${r.change_date}</td><td class="n">${fmt(r.prev_price)}</td><td class="n">${fmt(r.new_price)}</td><td class="n">${r.change_pct}%</td></tr>`).join('')+'</table>':`<p>Aún no hay cambios: se necesitan al menos dos días de snapshots (hoy hay ${s.days}).</p>`;
+  const rel=d.best_day.filter(r=>r.is_reliable);
+  document.getElementById('best').innerHTML=rel.length?'<table><tr><th>Tienda</th><th>Categoría</th><th>Mejor día</th><th>vs. promedio</th></tr>'+rel.map(r=>`<tr><td>${r.store_id}</td><td>${r.category}</td><td>${r.day_name}</td><td class="n">${r.avg_vs_mean_pct}%</td></tr>`).join('')+'</table>':`<p>Todavía no es confiable: se calcula con al menos 14 días de historia (hoy hay ${s.days}).</p>`;
+  document.getElementById('foot').innerHTML=`Fuente: ${esc(s.source)}. Solo precios leídos en vivo de la tienda; los precios simulados de Ñapa se excluyen. Actualizado: ${s.generated_at}. Código: <a href="https://github.com/JFredMC/napa-price-pipeline">JFredMC/napa-price-pipeline</a>`;
+});
+</script>
+</body></html>

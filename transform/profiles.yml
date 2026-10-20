@@ -1,0 +1,7 @@
+napa_prices:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('DUCKDB_PATH', '../warehouse/napa.duckdb') }}"
+      threads: 4

@@ -1,0 +1,14 @@
+name: napa_prices
+version: "0.1.0"
+config-version: 2
+profile: napa_prices
+model-paths: ["models"]
+test-paths: ["tests"]
+vars:
+  raw_glob: "../data/raw/*/offers.csv"
+  min_days_for_weekday: 14
+models:
+  napa_prices:
+    staging: {+materialized: view}
+    core: {+materialized: table}
+    marts: {+materialized: table}

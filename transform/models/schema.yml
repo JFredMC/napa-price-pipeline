@@ -1,0 +1,60 @@
+version: 2
+
+models:
+  - name: stg_offers
+    description: Ofertas reales (source = live) leídas de la API pública de Ñapa, tipadas.
+    columns:
+      - name: offer_id
+        tests: [not_null]
+      - name: snapshot_date
+        tests: [not_null]
+      - name: store_id
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [jumbo, olimpica, exito, carulla, mercadolibre, d1, ara, alkosto, falabella, shein, temu]
+      - name: price
+        tests: [not_null]
+
+  - name: dim_product
+    description: Un registro por oferta con sus atributos más recientes.
+    columns:
+      - name: offer_id
+        tests: [unique, not_null]
+      - name: store_id
+        tests: [not_null]
+
+  - name: fct_daily_price
+    description: Precio observado por oferta y día.
+    columns:
+      - name: price_id
+        tests: [unique, not_null]
+      - name: offer_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_product')
+                field: offer_id
+      - name: discount_pct
+        tests: [not_null]
+
+  - name: mart_price_index
+    description: Índice de precios (base 100) por tienda, categoría y día.
+    columns:
+      - name: price_index
+        tests: [not_null]
+
+  - name: mart_price_changes
+    description: Cada cambio de precio de una oferta entre dos días observados.
+
+  - name: mart_best_day_to_buy
+    description: Precio relativo promedio por día de la semana, tienda y categoría.
+    columns:
+      - name: day_of_week
+        tests:
+          - accepted_values:
+              arguments:
+                values: [0, 1, 2, 3, 4, 5, 6]
+                quote: false

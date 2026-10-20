@@ -452,16 +452,6 @@
   },
   {
    "title": "Organizador De Huevos De Cocina Con Diseño Practico",
-   "brand": "GENERICO",
-   "store_id": "jumbo",
-   "category": "hogar",
-   "price": 38900.0,
-   "list_price": 77800.0,
-   "discount_pct": 50.0,
-   "url": "https://www.jumbocolombia.com/organizador-de-huevos-de-cocina-con-dise%C3%B1o-practico-20133676/p"
-  },
-  {
-   "title": "Organizador De Huevos De Cocina Con Diseño Practico",
    "brand": "Generico",
    "store_id": "olimpica",
    "category": "hogar",
@@ -469,6 +459,16 @@
    "list_price": 77800.0,
    "discount_pct": 50.0,
    "url": "https://www.olimpica.com/organizador-de-huevos-de-cocina-con-dise%C3%B1o-practico-1002389084/p"
+  },
+  {
+   "title": "Organizador De Huevos De Cocina Con Diseño Practico",
+   "brand": "GENERICO",
+   "store_id": "jumbo",
+   "category": "hogar",
+   "price": 38900.0,
+   "list_price": 77800.0,
+   "discount_pct": 50.0,
+   "url": "https://www.jumbocolombia.com/organizador-de-huevos-de-cocina-con-dise%C3%B1o-practico-20133676/p"
   },
   {
    "title": "Dispensador Jabon Liquido Organizador Cocina",
@@ -812,7 +812,7 @@
   ],
   "categories": 11,
   "price_changes": 0,
-  "generated_at": "2026-10-20T09:51:28-05:00",
+  "generated_at": "2026-10-20T14:57:37+00:00",
   "source": "https://napa-api.onrender.com/api/search (solo ofertas source=live)"
  }
 }

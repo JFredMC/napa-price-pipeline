@@ -1,0 +1,89 @@
+{
+  "snapshot_date": "2026-10-26",
+  "live_stores": [
+    "jumbo",
+    "olimpica"
+  ],
+  "offers": 1950,
+  "sources": [
+    {
+      "storeId": "mercadolibre",
+      "name": "Mercado Libre",
+      "mode": "simulated",
+      "reason": "Sin credenciales OAuth de Mercado Libre configuradas; precios simulados."
+    },
+    {
+      "storeId": "exito",
+      "name": "Éxito",
+      "mode": "blocked",
+      "reason": "Su robots.txt no permite consultar el catálogo; se usa el simulado. Además, su protección anti-bots rechaza a un robot identificado (HTTP 429).",
+      "access": {
+        "url": "https://www.exito.com/sitemap/sitemap.xml",
+        "status": 429,
+        "botBlocked": true,
+        "checkedAt": "2026-10-26T18:46:35.806Z"
+      }
+    },
+    {
+      "storeId": "carulla",
+      "name": "Carulla",
+      "mode": "blocked",
+      "reason": "Su robots.txt no permite consultar el catálogo; se usa el simulado.",
+      "access": {
+        "url": "https://www.carulla.com/sitemap/sitemap.xml",
+        "status": 200,
+        "botBlocked": false,
+        "checkedAt": "2026-10-26T18:46:35.843Z"
+      }
+    },
+    {
+      "storeId": "jumbo",
+      "name": "Jumbo",
+      "mode": "live",
+      "reason": "Fuente real configurada."
+    },
+    {
+      "storeId": "olimpica",
+      "name": "Olímpica",
+      "mode": "live",
+      "reason": "Fuente real configurada."
+    },
+    {
+      "storeId": "d1",
+      "name": "D1",
+      "mode": "simulated",
+      "reason": "Sin API pública: precios simulados."
+    },
+    {
+      "storeId": "ara",
+      "name": "Ara",
+      "mode": "simulated",
+      "reason": "Sin API pública: precios simulados."
+    },
+    {
+      "storeId": "alkosto",
+      "name": "Alkosto",
+      "mode": "simulated",
+      "reason": "Sin API pública: precios simulados."
+    },
+    {
+      "storeId": "falabella",
+      "name": "Falabella",
+      "mode": "simulated",
+      "reason": "Sin API pública: precios simulados."
+    },
+    {
+      "storeId": "shein",
+      "name": "Shein",
+      "mode": "simulated",
+      "reason": "Sin API pública: precios simulados."
+    },
+    {
+      "storeId": "temu",
+      "name": "Temu",
+      "mode": "simulated",
+      "reason": "Sin API pública: precios simulados."
+    }
+  ],
+  "ingested_at": "2026-10-26T18:48:10.176403+00:00"
+}

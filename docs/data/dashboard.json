@@ -91,6 +91,12 @@
    "offers": 1608
   },
   {
+   "store_id": "jumbo",
+   "date": "2026-11-04",
+   "price_index": 100.62,
+   "offers": 1608
+  },
+  {
    "store_id": "olimpica",
    "date": "2026-10-20",
    "price_index": 100.0,
@@ -179,6 +185,12 @@
    "date": "2026-11-03",
    "price_index": 97.16,
    "offers": 341
+  },
+  {
+   "store_id": "olimpica",
+   "date": "2026-11-04",
+   "price_index": 102.32,
+   "offers": 342
   }
  ],
  "index_by_category": [
@@ -303,6 +315,14 @@
    "avg_discount_pct": 0.0
   },
   {
+   "store_id": "jumbo",
+   "category": "aseo-hogar",
+   "date": "2026-11-04",
+   "price_index": 88.78,
+   "offers": 238,
+   "avg_discount_pct": 13.78
+  },
+  {
    "store_id": "olimpica",
    "category": "aseo-hogar",
    "date": "2026-10-20",
@@ -421,6 +441,14 @@
    "price_index": 102.74,
    "offers": 26,
    "avg_discount_pct": 3.65
+  },
+  {
+   "store_id": "olimpica",
+   "category": "aseo-hogar",
+   "date": "2026-11-04",
+   "price_index": 96.28,
+   "offers": 28,
+   "avg_discount_pct": 9.82
   },
   {
    "store_id": "jumbo",
@@ -543,6 +571,14 @@
    "avg_discount_pct": 2.02
   },
   {
+   "store_id": "jumbo",
+   "category": "bebe",
+   "date": "2026-11-04",
+   "price_index": 100.76,
+   "offers": 86,
+   "avg_discount_pct": 2.0
+  },
+  {
    "store_id": "olimpica",
    "category": "bebe",
    "date": "2026-10-20",
@@ -661,6 +697,14 @@
    "price_index": 98.44,
    "offers": 16,
    "avg_discount_pct": 12.85
+  },
+  {
+   "store_id": "olimpica",
+   "category": "bebe",
+   "date": "2026-11-04",
+   "price_index": 106.28,
+   "offers": 17,
+   "avg_discount_pct": 7.39
   },
   {
    "store_id": "jumbo",
@@ -783,6 +827,14 @@
    "avg_discount_pct": 1.01
   },
   {
+   "store_id": "jumbo",
+   "category": "bebidas",
+   "date": "2026-11-04",
+   "price_index": 109.16,
+   "offers": 170,
+   "avg_discount_pct": 0.57
+  },
+  {
    "store_id": "olimpica",
    "category": "bebidas",
    "date": "2026-10-20",
@@ -903,6 +955,14 @@
    "avg_discount_pct": 3.33
   },
   {
+   "store_id": "olimpica",
+   "category": "bebidas",
+   "date": "2026-11-04",
+   "price_index": 104.3,
+   "offers": 33,
+   "avg_discount_pct": 1.96
+  },
+  {
    "store_id": "jumbo",
    "category": "belleza",
    "date": "2026-10-20",
@@ -1018,6 +1078,14 @@
    "store_id": "jumbo",
    "category": "belleza",
    "date": "2026-11-03",
+   "price_index": 99.91,
+   "offers": 16,
+   "avg_discount_pct": 0.0
+  },
+  {
+   "store_id": "jumbo",
+   "category": "belleza",
+   "date": "2026-11-04",
    "price_index": 99.91,
    "offers": 16,
    "avg_discount_pct": 0.0
@@ -1143,6 +1211,14 @@
    "avg_discount_pct": 4.29
   },
   {
+   "store_id": "olimpica",
+   "category": "belleza",
+   "date": "2026-11-04",
+   "price_index": 118.37,
+   "offers": 7,
+   "avg_discount_pct": 0.0
+  },
+  {
    "store_id": "jumbo",
    "category": "cuidado-personal",
    "date": "2026-10-20",
@@ -1261,6 +1337,14 @@
    "price_index": 101.86,
    "offers": 158,
    "avg_discount_pct": 0.61
+  },
+  {
+   "store_id": "jumbo",
+   "category": "cuidado-personal",
+   "date": "2026-11-04",
+   "price_index": 100.38,
+   "offers": 158,
+   "avg_discount_pct": 1.24
   },
   {
    "store_id": "olimpica",
@@ -1383,6 +1467,14 @@
    "avg_discount_pct": 8.64
   },
   {
+   "store_id": "olimpica",
+   "category": "cuidado-personal",
+   "date": "2026-11-04",
+   "price_index": 113.55,
+   "offers": 31,
+   "avg_discount_pct": 0.81
+  },
+  {
    "store_id": "jumbo",
    "category": "despensa",
    "date": "2026-10-20",
@@ -1501,6 +1593,14 @@
    "price_index": 100.63,
    "offers": 623,
    "avg_discount_pct": 0.72
+  },
+  {
+   "store_id": "jumbo",
+   "category": "despensa",
+   "date": "2026-11-04",
+   "price_index": 101.41,
+   "offers": 620,
+   "avg_discount_pct": 0.1
   },
   {
    "store_id": "olimpica",
@@ -1623,6 +1723,14 @@
    "avg_discount_pct": 8.16
   },
   {
+   "store_id": "olimpica",
+   "category": "despensa",
+   "date": "2026-11-04",
+   "price_index": 100.18,
+   "offers": 130,
+   "avg_discount_pct": 3.05
+  },
+  {
    "store_id": "jumbo",
    "category": "electrohogar",
    "date": "2026-10-20",
@@ -1738,6 +1846,14 @@
    "store_id": "jumbo",
    "category": "electrohogar",
    "date": "2026-11-03",
+   "price_index": 100.0,
+   "offers": 1,
+   "avg_discount_pct": 51.12
+  },
+  {
+   "store_id": "jumbo",
+   "category": "electrohogar",
+   "date": "2026-11-04",
    "price_index": 100.0,
    "offers": 1,
    "avg_discount_pct": 51.12
@@ -1863,6 +1979,14 @@
    "avg_discount_pct": 25.0
   },
   {
+   "store_id": "olimpica",
+   "category": "electrohogar",
+   "date": "2026-11-04",
+   "price_index": 100.0,
+   "offers": 2,
+   "avg_discount_pct": 35.02
+  },
+  {
    "store_id": "jumbo",
    "category": "hogar",
    "date": "2026-10-20",
@@ -1983,6 +2107,14 @@
    "avg_discount_pct": 2.86
   },
   {
+   "store_id": "jumbo",
+   "category": "hogar",
+   "date": "2026-11-04",
+   "price_index": 110.09,
+   "offers": 97,
+   "avg_discount_pct": 3.34
+  },
+  {
    "store_id": "olimpica",
    "category": "hogar",
    "date": "2026-10-20",
@@ -2098,6 +2230,14 @@
    "store_id": "olimpica",
    "category": "hogar",
    "date": "2026-11-03",
+   "price_index": 100.0,
+   "offers": 9,
+   "avg_discount_pct": 34.46
+  },
+  {
+   "store_id": "olimpica",
+   "category": "hogar",
+   "date": "2026-11-04",
    "price_index": 100.0,
    "offers": 9,
    "avg_discount_pct": 34.46
@@ -2223,6 +2363,14 @@
    "avg_discount_pct": 0.25
   },
   {
+   "store_id": "jumbo",
+   "category": "lacteos",
+   "date": "2026-11-04",
+   "price_index": 101.18,
+   "offers": 201,
+   "avg_discount_pct": 0.0
+  },
+  {
    "store_id": "olimpica",
    "category": "lacteos",
    "date": "2026-10-20",
@@ -2343,6 +2491,14 @@
    "avg_discount_pct": 12.18
   },
   {
+   "store_id": "olimpica",
+   "category": "lacteos",
+   "date": "2026-11-04",
+   "price_index": 101.41,
+   "offers": 39,
+   "avg_discount_pct": 0.51
+  },
+  {
    "store_id": "jumbo",
    "category": "mascotas",
    "date": "2026-10-20",
@@ -2458,6 +2614,14 @@
    "store_id": "jumbo",
    "category": "mascotas",
    "date": "2026-11-03",
+   "price_index": 118.44,
+   "offers": 7,
+   "avg_discount_pct": 0.0
+  },
+  {
+   "store_id": "jumbo",
+   "category": "mascotas",
+   "date": "2026-11-04",
    "price_index": 118.44,
    "offers": 7,
    "avg_discount_pct": 0.0
@@ -2583,6 +2747,14 @@
    "avg_discount_pct": 25.01
   },
   {
+   "store_id": "olimpica",
+   "category": "mascotas",
+   "date": "2026-11-04",
+   "price_index": 93.33,
+   "offers": 3,
+   "avg_discount_pct": 6.67
+  },
+  {
    "store_id": "jumbo",
    "category": "moda",
    "date": "2026-10-20",
@@ -2703,6 +2875,14 @@
    "avg_discount_pct": 0.0
   },
   {
+   "store_id": "jumbo",
+   "category": "moda",
+   "date": "2026-11-04",
+   "price_index": 82.86,
+   "offers": 14,
+   "avg_discount_pct": 17.14
+  },
+  {
    "store_id": "olimpica",
    "category": "moda",
    "date": "2026-10-20",
@@ -2821,62 +3001,70 @@
    "price_index": 94.06,
    "offers": 43,
    "avg_discount_pct": 14.99
+  },
+  {
+   "store_id": "olimpica",
+   "category": "moda",
+   "date": "2026-11-04",
+   "price_index": 100.96,
+   "offers": 43,
+   "avg_discount_pct": 8.83
   }
  ],
  "category_snapshot": [
   {
    "category": "aseo-hogar",
    "store_id": "jumbo",
-   "offers": 237,
-   "median_price": 19990.0,
-   "avg_discount_pct": 0.0,
-   "discounted": 0
+   "offers": 238,
+   "median_price": 16232.0,
+   "avg_discount_pct": 13.78,
+   "discounted": 164
   },
   {
    "category": "aseo-hogar",
    "store_id": "olimpica",
-   "offers": 26,
-   "median_price": 9950.0,
-   "avg_discount_pct": 3.65,
-   "discounted": 3
+   "offers": 28,
+   "median_price": 8955.0,
+   "avg_discount_pct": 9.82,
+   "discounted": 11
   },
   {
    "category": "bebe",
    "store_id": "jumbo",
-   "offers": 85,
-   "median_price": 45490.0,
-   "avg_discount_pct": 2.02,
+   "offers": 86,
+   "median_price": 43703.0,
+   "avg_discount_pct": 2.0,
    "discounted": 10
   },
   {
    "category": "bebe",
    "store_id": "olimpica",
-   "offers": 16,
-   "median_price": 21145.0,
-   "avg_discount_pct": 12.85,
-   "discounted": 8
+   "offers": 17,
+   "median_price": 20990.0,
+   "avg_discount_pct": 7.39,
+   "discounted": 5
   },
   {
    "category": "bebidas",
    "store_id": "jumbo",
    "offers": 170,
-   "median_price": 7740.0,
-   "avg_discount_pct": 1.01,
-   "discounted": 7
+   "median_price": 8865.0,
+   "avg_discount_pct": 0.57,
+   "discounted": 2
   },
   {
    "category": "bebidas",
    "store_id": "olimpica",
    "offers": 33,
    "median_price": 6700.0,
-   "avg_discount_pct": 3.33,
-   "discounted": 4
+   "avg_discount_pct": 1.96,
+   "discounted": 2
   },
   {
    "category": "belleza",
    "store_id": "jumbo",
    "offers": 16,
-   "median_price": 30980.0,
+   "median_price": 28175.0,
    "avg_discount_pct": 0.0,
    "discounted": 0
   },
@@ -2885,40 +3073,40 @@
    "store_id": "olimpica",
    "offers": 7,
    "median_price": 36200.0,
-   "avg_discount_pct": 4.29,
-   "discounted": 1
+   "avg_discount_pct": 0.0,
+   "discounted": 0
   },
   {
    "category": "cuidado-personal",
    "store_id": "jumbo",
    "offers": 158,
-   "median_price": 23120.0,
-   "avg_discount_pct": 0.61,
-   "discounted": 2
+   "median_price": 23340.0,
+   "avg_discount_pct": 1.24,
+   "discounted": 7
   },
   {
    "category": "cuidado-personal",
    "store_id": "olimpica",
-   "offers": 33,
-   "median_price": 19537.0,
-   "avg_discount_pct": 8.64,
-   "discounted": 11
+   "offers": 31,
+   "median_price": 25610.0,
+   "avg_discount_pct": 0.81,
+   "discounted": 1
   },
   {
    "category": "despensa",
    "store_id": "jumbo",
-   "offers": 623,
-   "median_price": 11900.0,
-   "avg_discount_pct": 0.72,
-   "discounted": 28
+   "offers": 620,
+   "median_price": 12020.0,
+   "avg_discount_pct": 0.1,
+   "discounted": 2
   },
   {
    "category": "despensa",
    "store_id": "olimpica",
    "offers": 130,
-   "median_price": 7975.0,
-   "avg_discount_pct": 8.16,
-   "discounted": 60
+   "median_price": 8570.0,
+   "avg_discount_pct": 3.05,
+   "discounted": 24
   },
   {
    "category": "electrohogar",
@@ -2932,17 +3120,17 @@
    "category": "electrohogar",
    "store_id": "olimpica",
    "offers": 2,
-   "median_price": 69400.0,
-   "avg_discount_pct": 25.0,
-   "discounted": 1
+   "median_price": 64400.0,
+   "avg_discount_pct": 35.02,
+   "discounted": 2
   },
   {
    "category": "hogar",
    "store_id": "jumbo",
-   "offers": 96,
+   "offers": 97,
    "median_price": 39950.0,
-   "avg_discount_pct": 2.86,
-   "discounted": 8
+   "avg_discount_pct": 3.34,
+   "discounted": 9
   },
   {
    "category": "hogar",
@@ -2956,17 +3144,17 @@
    "category": "lacteos",
    "store_id": "jumbo",
    "offers": 201,
-   "median_price": 13190.0,
-   "avg_discount_pct": 0.25,
-   "discounted": 2
+   "median_price": 13290.0,
+   "avg_discount_pct": 0.0,
+   "discounted": 0
   },
   {
    "category": "lacteos",
    "store_id": "olimpica",
    "offers": 39,
-   "median_price": 12080.0,
-   "avg_discount_pct": 12.18,
-   "discounted": 24
+   "median_price": 16440.0,
+   "avg_discount_pct": 0.51,
+   "discounted": 1
   },
   {
    "category": "mascotas",
@@ -2980,25 +3168,25 @@
    "category": "mascotas",
    "store_id": "olimpica",
    "offers": 3,
-   "median_price": 4237.0,
-   "avg_discount_pct": 25.01,
-   "discounted": 3
+   "median_price": 5650.0,
+   "avg_discount_pct": 6.67,
+   "discounted": 1
   },
   {
    "category": "moda",
    "store_id": "jumbo",
    "offers": 14,
-   "median_price": 24270.0,
-   "avg_discount_pct": 0.0,
-   "discounted": 0
+   "median_price": 19416.0,
+   "avg_discount_pct": 17.14,
+   "discounted": 12
   },
   {
    "category": "moda",
    "store_id": "olimpica",
    "offers": 43,
-   "median_price": 23310.0,
-   "avg_discount_pct": 14.99,
-   "discounted": 28
+   "median_price": 29990.0,
+   "avg_discount_pct": 8.83,
+   "discounted": 19
   }
  ],
  "top_discounts": [
@@ -3031,6 +3219,16 @@
    "list_price": 449900.0,
    "discount_pct": 51.12,
    "url": "https://www.jumbocolombia.com/espumador-de-leche-cuisinart-fr-16c-405121/p"
+  },
+  {
+   "title": "Dispensador Practico Cereal Ordena Tu Cocina",
+   "brand": "GENERICO",
+   "store_id": "jumbo",
+   "category": "hogar",
+   "price": 178900.0,
+   "list_price": 357800.0,
+   "discount_pct": 50.0,
+   "url": "https://www.jumbocolombia.com/dispensador-practico-cereal-ordena-tu-cocina-20102730/p"
   },
   {
    "title": "Sofa Inflable Con Reposapies Comodo Portatil Para Sala",
@@ -3183,16 +3381,6 @@
    "url": "https://www.olimpica.com/organizador-huevos-rodante-transparente-1002382694/p"
   },
   {
-   "title": "Desinfectante Lysol Toallitas Citrus 35 unid.",
-   "brand": "Lysol",
-   "store_id": "olimpica",
-   "category": "aseo-hogar",
-   "price": 12870.0,
-   "list_price": 21450.0,
-   "discount_pct": 40.0,
-   "url": "https://www.olimpica.com/toallitas-lysol-desinfect-citru-x35un/p"
-  },
-  {
    "title": "Reloj Casio MTP-VD01L-1B En Cuero Café Para Hombre",
    "brand": "Casio",
    "store_id": "olimpica",
@@ -3223,544 +3411,544 @@
    "url": "https://www.olimpica.com/organizador-de-cuna-para-pa%C3%B1ales-ropa-de-cama-gris-1002367280/p"
   },
   {
-   "title": "Gallina Hervidor Automatica Pollo Hierve 7 Huevos",
-   "brand": "Generico",
+   "title": "Papel Higiénico Húmedo Familia Aloe Vera X50 Unds",
+   "brand": "Familia",
    "store_id": "olimpica",
-   "category": "hogar",
-   "price": 32900.0,
-   "list_price": 49900.0,
-   "discount_pct": 34.07,
-   "url": "https://www.olimpica.com/gallina-hervidor-automatica-pollo-hierve-7-huevos-1002368644/p"
+   "category": "aseo-hogar",
+   "price": 5973.0,
+   "list_price": 9190.0,
+   "discount_pct": 35.01,
+   "url": "https://www.olimpica.com/papel-higienico-familia-humed-x50un/p"
   },
   {
-   "title": "Organizador Huevos Estante Almacenamiento x30 Acrilico",
-   "brand": "Generico",
+   "title": "Desinfectante Lysol Toallitas Citrus 35 unid.",
+   "brand": "Lysol",
    "store_id": "olimpica",
-   "category": "hogar",
-   "price": 36900.0,
-   "list_price": 54900.0,
-   "discount_pct": 32.79,
-   "url": "https://www.olimpica.com/organizador-huevos-estante-almacenamiento-x30-acrilico-1002367232/p"
+   "category": "aseo-hogar",
+   "price": 13942.0,
+   "list_price": 21450.0,
+   "discount_pct": 35.0,
+   "url": "https://www.olimpica.com/toallitas-lysol-desinfect-citru-x35un/p"
   },
   {
-   "title": "Filtro Purificador De Agua Para Cocina Filtro Agua",
-   "brand": "Generico",
+   "title": "Papel Higiénico Hùmedo Familia Aloe Vera X100 Unds",
+   "brand": "Familia",
    "store_id": "olimpica",
-   "category": "hogar",
-   "price": 86900.0,
-   "list_price": 124900.0,
-   "discount_pct": 30.42,
-   "url": "https://www.olimpica.com/filtro-purificador-de-agua-para-cocina-filtro-agua-1002389200/p"
+   "category": "aseo-hogar",
+   "price": 10595.0,
+   "list_price": 16300.0,
+   "discount_pct": 35.0,
+   "url": "https://www.olimpica.com/papel-higienico-familia-humedo-x100un/p"
   }
  ],
  "price_changes": [
   {
-   "title": "Cerveza Floris Frambuesa Bot 330ml",
-   "store_id": "jumbo",
-   "category": "bebidas",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 14890.0,
-   "new_price": 25600.0,
-   "change_pct": 71.93
-  },
-  {
-   "title": "Cerveza Floris Passion Bot 330ml",
-   "store_id": "jumbo",
-   "category": "bebidas",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 14890.0,
-   "new_price": 25600.0,
-   "change_pct": 71.93
-  },
-  {
-   "title": "Crema Dental Family Care Triple Acción x100ml",
-   "store_id": "jumbo",
-   "category": "cuidado-personal",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 3174.0,
-   "new_price": 5290.0,
-   "change_pct": 66.67
-  },
-  {
-   "title": "Papel Higiénico Rosal Ultra confort Triple Hoja x15 Rollos x25mt",
-   "store_id": "jumbo",
+   "title": "DESINF TERGO CLORO GEL 500 ML",
+   "store_id": "olimpica",
    "category": "aseo-hogar",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 19890.0,
-   "new_price": 31790.0,
-   "change_pct": 59.83
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 6265.0,
+   "new_price": 8950.0,
+   "change_pct": 42.86
   },
   {
-   "title": "Papel higiénico Familia Acolchamax megarollo x12 rollos",
-   "store_id": "jumbo",
-   "category": "aseo-hogar",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 18890.0,
-   "new_price": 28300.0,
-   "change_pct": 49.81
-  },
-  {
-   "title": "Lavaloza Máxima limón crema x450g",
-   "store_id": "jumbo",
-   "category": "aseo-hogar",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 2467.0,
-   "new_price": 3600.0,
-   "change_pct": 45.93
-  },
-  {
-   "title": "Cerveza Duvel botella x750ml",
-   "store_id": "jumbo",
-   "category": "bebidas",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 31890.0,
-   "new_price": 45690.0,
-   "change_pct": 43.27
-  },
-  {
-   "title": "Aceite Diana vitaminas x2000ml",
-   "store_id": "jumbo",
+   "title": "Buenazo Croissant Chocolate 60g",
+   "store_id": "olimpica",
    "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 18235.0,
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 2023.0,
+   "new_price": 2890.0,
+   "change_pct": 42.86
+  },
+  {
+   "title": "JABON SUPREMO QUITAMANCHAS 100G",
+   "store_id": "olimpica",
+   "category": "moda",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 4725.0,
+   "new_price": 6750.0,
+   "change_pct": 42.86
+  },
+  {
+   "title": "Suavizante Downy Brisa de Verano 1.5L",
+   "store_id": "olimpica",
+   "category": "moda",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 28693.0,
+   "new_price": 40990.0,
+   "change_pct": 42.86
+  },
+  {
+   "title": "Suavizante Ecoazul 1,6 Lt",
+   "store_id": "olimpica",
+   "category": "moda",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 10423.0,
+   "new_price": 14890.0,
+   "change_pct": 42.86
+  },
+  {
+   "title": "Shampoo Savital Anticaspa 510 Ml",
+   "store_id": "olimpica",
+   "category": "cuidado-personal",
+   "prev_date": "2026-10-23",
+   "change_date": "2026-11-04",
+   "prev_price": 26880.0,
+   "new_price": 38400.0,
+   "change_pct": 42.86
+  },
+  {
+   "title": "Suavizante Downy Adorable de 900ml Suavizante de Ropa",
+   "store_id": "olimpica",
+   "category": "moda",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 20993.0,
+   "new_price": 29990.0,
+   "change_pct": 42.86
+  },
+  {
+   "title": "Detergente Liquido Velrosita 1300 Ml",
+   "store_id": "olimpica",
+   "category": "moda",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 17843.0,
+   "new_price": 25490.0,
+   "change_pct": 42.86
+  },
+  {
+   "title": "Toallitas Desmaquillantes Neutrogena X25 Und",
+   "store_id": "olimpica",
+   "category": "belleza",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 36890.0,
+   "new_price": 52700.0,
+   "change_pct": 42.86
+  },
+  {
+   "title": "Desmanchador Blancox Ropa Color Sin Cloro 2000 Ml + Gratis 1000 Ml",
+   "store_id": "olimpica",
+   "category": "moda",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 16485.0,
+   "new_price": 23550.0,
+   "change_pct": 42.86
+  },
+  {
+   "title": "Desodorante Dove Roll On Original",
+   "store_id": "olimpica",
+   "category": "cuidado-personal",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 12040.0,
+   "new_price": 17200.0,
+   "change_pct": 42.86
+  },
+  {
+   "title": "Suavizante Downy Adorable de 450mL Suavizante de Ropa",
+   "store_id": "olimpica",
+   "category": "moda",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 12040.0,
+   "new_price": 17200.0,
+   "change_pct": 42.86
+  },
+  {
+   "title": "Agua Micelar Garnier Agua de Rosas 400 Ml",
+   "store_id": "olimpica",
+   "category": "cuidado-personal",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 26390.0,
+   "new_price": 37700.0,
+   "change_pct": 42.86
+  },
+  {
+   "title": "Papel Higiénico Húmedo Familia Aloe Vera X50 Unds",
+   "store_id": "olimpica",
+   "category": "aseo-hogar",
+   "prev_date": "2026-10-31",
+   "change_date": "2026-11-04",
+   "prev_price": 9190.0,
+   "new_price": 5973.0,
+   "change_pct": -35.01
+  },
+  {
+   "title": "Papel Higiénico Hùmedo Familia Aloe Vera X100 Unds",
+   "store_id": "olimpica",
+   "category": "aseo-hogar",
+   "prev_date": "2026-10-31",
+   "change_date": "2026-11-04",
+   "prev_price": 16300.0,
+   "new_price": 10595.0,
+   "change_pct": -35.0
+  },
+  {
+   "title": "Crema Leche Alqueria Menos Grasa 170g",
+   "store_id": "jumbo",
+   "category": "lacteos",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 4417.0,
+   "new_price": 5890.0,
+   "change_pct": 33.35
+  },
+  {
+   "title": "Galletas Dolcezza De Almendras 140 G X7 Unds",
+   "store_id": "olimpica",
+   "category": "despensa",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 5437.0,
+   "new_price": 7250.0,
+   "change_pct": 33.35
+  },
+  {
+   "title": "GALLETAS LOPETS GATOS 70G",
+   "store_id": "olimpica",
+   "category": "mascotas",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 4237.0,
+   "new_price": 5650.0,
+   "change_pct": 33.35
+  },
+  {
+   "title": "Crema Dental Sensodyne Rápido Alivio Blanqueador Alivio de la Sensibilidad Dental 100 G",
+   "store_id": "olimpica",
+   "category": "cuidado-personal",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 28042.0,
+   "new_price": 37390.0,
+   "change_pct": 33.34
+  },
+  {
+   "title": "Toallitas Húmedas Winny Aloe Vera X70 Unds",
+   "store_id": "olimpica",
+   "category": "bebe",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 7462.0,
+   "new_price": 9950.0,
+   "change_pct": 33.34
+  },
+  {
+   "title": "Harina De Almendra Prodelagro 250 G",
+   "store_id": "olimpica",
+   "category": "cuidado-personal",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 19537.0,
    "new_price": 26050.0,
-   "change_pct": 42.86
+   "change_pct": 33.34
   },
   {
-   "title": "Aceite Diana vitaminas x3000ml",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 26628.0,
-   "new_price": 38040.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Cereal TRIX® por 480g",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 18263.0,
-   "new_price": 26090.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Aceite Gourmet Familia x900ml",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 15092.0,
-   "new_price": 21560.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Cereal Flips lonchera chocolate x168g",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 10773.0,
-   "new_price": 15390.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Aceite Premier girasol x2700ml",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 37940.0,
-   "new_price": 54200.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Cereal Trix Bolsa x200 grs",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 9793.0,
-   "new_price": 13990.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Pampers Cruisers 360 Pañales Talla 4 64U",
-   "store_id": "jumbo",
-   "category": "bebe",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 102193.0,
-   "new_price": 145990.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Jabón Dove Revigorizante Barra 90g",
-   "store_id": "jumbo",
+   "title": "Crema Dental Sensodyne Repara y Protege Alivio de la Sensibilidad Dental 100 G",
+   "store_id": "olimpica",
    "category": "cuidado-personal",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 15330.0,
-   "new_price": 21900.0,
-   "change_pct": 42.86
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 27292.0,
+   "new_price": 36390.0,
+   "change_pct": 33.34
   },
   {
-   "title": "Portacepillos Plástico Bicolor Agua",
-   "store_id": "jumbo",
-   "category": "hogar",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 3493.0,
-   "new_price": 4990.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Cereal Zucosos Hojuelas Azucaradas X 350g",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 11410.0,
-   "new_price": 16300.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Pañales Pampers Swaddlers Talla P (4-6 kg) 31U",
-   "store_id": "jumbo",
-   "category": "bebe",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 41993.0,
-   "new_price": 59990.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Aceite Premier girasol x1800ml",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 28763.0,
-   "new_price": 41090.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Pampers Cruisers 360 Pañales Talla 5 56U",
-   "store_id": "jumbo",
-   "category": "bebe",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 102193.0,
-   "new_price": 145990.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Crema Dental Colgate Total Original Mint Prevención Activa 3x75ml",
-   "store_id": "jumbo",
-   "category": "cuidado-personal",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 24500.0,
-   "new_price": 35000.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Dispensador Jabón Perro Krea",
-   "store_id": "jumbo",
-   "category": "hogar",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 24493.0,
-   "new_price": 34990.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Cereal Flips Choco Avellanas 400g",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 14413.0,
-   "new_price": 20590.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Aceite Premier girasol x900ml",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 13713.0,
-   "new_price": 19590.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Pañales Pampers Splashers Etapa 4 x11Und",
-   "store_id": "jumbo",
-   "category": "bebe",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 24493.0,
-   "new_price": 34990.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Jabón Dove Antibacterial Barra 90g",
-   "store_id": "jumbo",
-   "category": "cuidado-personal",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 29183.0,
-   "new_price": 41690.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Cereal TRIX Nestlé por 340g",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 15813.0,
-   "new_price": 22590.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Desodorante Axe Body Spray Ice Chill 150ml",
-   "store_id": "jumbo",
-   "category": "cuidado-personal",
-   "prev_date": "2026-10-21",
-   "change_date": "2026-11-03",
-   "prev_price": 14693.0,
-   "new_price": 20990.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Cereal Flips choco avellanas x320g",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 16513.0,
-   "new_price": 23590.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Crema Dental Blanqueadora Colgate Luminous White Brilliant 125ml",
-   "store_id": "jumbo",
-   "category": "cuidado-personal",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 19040.0,
-   "new_price": 27200.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Cereal Flips chocolate x320g",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 13293.0,
-   "new_price": 18990.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Jabón Dove Antibacterial Barra 90g",
-   "store_id": "jumbo",
-   "category": "cuidado-personal",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 17423.0,
-   "new_price": 24890.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Aceite Canola Life 1800ml",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 34713.0,
-   "new_price": 49590.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Aceite Diana Vitamor 3000ml",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 25333.0,
-   "new_price": 36190.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "LECHE COCO SELECTO 400ML",
+   "title": "Pasta El Dorado Espagueti Lenteja 250 G",
    "store_id": "olimpica",
    "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 11200.0,
-   "new_price": 16000.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Aceite Diana vitaminas x900ml",
-   "store_id": "jumbo",
-   "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 10843.0,
-   "new_price": 15490.0,
-   "change_pct": 42.86
-  },
-  {
-   "title": "Detergente Dersa líquido manzana x4000ml",
-   "store_id": "jumbo",
-   "category": "aseo-hogar",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 40125.0,
-   "new_price": 57290.0,
-   "change_pct": 42.78
-  },
-  {
-   "title": "Lavaloza Lavamil liquido lima limon x1400ml",
-   "store_id": "jumbo",
-   "category": "aseo-hogar",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
    "prev_price": 10237.0,
-   "new_price": 14500.0,
-   "change_pct": 41.64
+   "new_price": 13650.0,
+   "change_pct": 33.34
   },
   {
-   "title": "Desinfectante Lysol Toallitas Citrus 35 unid.",
+   "title": "Crema Leche Alqueria Menos Grasa 380g",
+   "store_id": "jumbo",
+   "category": "lacteos",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 8917.0,
+   "new_price": 11890.0,
+   "change_pct": 33.34
+  },
+  {
+   "title": "Crema Dental Colgate Total Anti Sarro Prevención Activa x3 75ml",
+   "store_id": "jumbo",
+   "category": "cuidado-personal",
+   "prev_date": "2026-10-31",
+   "change_date": "2026-11-04",
+   "prev_price": 26602.0,
+   "new_price": 35470.0,
+   "change_pct": 33.34
+  },
+  {
+   "title": "Toallitas Húmedas Huggies Limpieza Diaria 112U",
    "store_id": "olimpica",
-   "category": "aseo-hogar",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 21450.0,
-   "new_price": 12870.0,
-   "change_pct": -40.0
+   "category": "bebe",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 6892.0,
+   "new_price": 9190.0,
+   "change_pct": 33.34
   },
   {
-   "title": "Crema Dental Colgate Triple Accion 75ml x3 Unidades",
+   "title": "Toallitas Húmedas Huggies Manitos y Carita Desechables 80U",
+   "store_id": "olimpica",
+   "category": "bebe",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 7417.0,
+   "new_price": 9890.0,
+   "change_pct": 33.34
+  },
+  {
+   "title": "Shampoo Muss Alta Nutrición x 1000ml",
    "store_id": "jumbo",
    "category": "cuidado-personal",
    "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 14692.0,
-   "new_price": 19620.0,
-   "change_pct": 33.54
+   "change_date": "2026-11-04",
+   "prev_price": 34492.0,
+   "new_price": 45990.0,
+   "change_pct": 33.34
   },
   {
-   "title": "Organizador Huevos Rodante Transparente",
+   "title": "Pasta El Dorado Coditos Lenteja 250 G",
    "store_id": "olimpica",
-   "category": "hogar",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 44900.0,
-   "new_price": 29900.0,
-   "change_pct": -33.41
-  },
-  {
-   "title": "Cerveza Heineken Botella 330ml",
-   "store_id": "jumbo",
-   "category": "bebidas",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 3067.0,
-   "new_price": 4090.0,
-   "change_pct": 33.36
-  },
-  {
-   "title": "Jabón Coco bebe x180g",
-   "store_id": "jumbo",
-   "category": "cuidado-personal",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 2137.0,
-   "new_price": 2850.0,
-   "change_pct": 33.36
-  },
-  {
-   "title": "Cerveza sol botella x250ml",
-   "store_id": "jumbo",
-   "category": "bebidas",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 2242.0,
-   "new_price": 2990.0,
-   "change_pct": 33.36
-  },
-  {
-   "title": "Lavaloza Patojito Limón Crema x235g",
-   "store_id": "jumbo",
-   "category": "aseo-hogar",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 2362.0,
-   "new_price": 3150.0,
-   "change_pct": 33.36
-  },
-  {
-   "title": "Cerveza Duvel Botella x 330 Ml",
-   "store_id": "jumbo",
-   "category": "bebidas",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 15890.0,
-   "new_price": 21190.0,
-   "change_pct": 33.35
-  },
-  {
-   "title": "Blanqueador en Gel Clorox Lavanda 500 ml",
-   "store_id": "jumbo",
-   "category": "aseo-hogar",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 4162.0,
-   "new_price": 5550.0,
-   "change_pct": 33.35
-  },
-  {
-   "title": "Pasta Lasagna Pasta La Muñeca x200g",
-   "store_id": "jumbo",
    "category": "despensa",
-   "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 4837.0,
-   "new_price": 6450.0,
-   "change_pct": 33.35
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 10462.0,
+   "new_price": 13950.0,
+   "change_pct": 33.34
   },
   {
-   "title": "Jabón de Ropa Velrosita 180 grs",
+   "title": "Shampoo Schwarzkopf Gliss Ultimate Repair 400ml",
    "store_id": "jumbo",
    "category": "cuidado-personal",
    "prev_date": "2026-11-02",
-   "change_date": "2026-11-03",
-   "prev_price": 3187.0,
-   "new_price": 4250.0,
-   "change_pct": 33.35
+   "change_date": "2026-11-04",
+   "prev_price": 22867.0,
+   "new_price": 30490.0,
+   "change_pct": 33.34
+  },
+  {
+   "title": "Toallitas Húmedas Huggies Limpieza Efectiva Desechables 192U",
+   "store_id": "olimpica",
+   "category": "bebe",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 21300.0,
+   "new_price": 28400.0,
+   "change_pct": 33.33
+  },
+  {
+   "title": "JUGO DE MANDARINA GIRALDA 1L",
+   "store_id": "olimpica",
+   "category": "despensa",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 6765.0,
+   "new_price": 9020.0,
+   "change_pct": 33.33
+  },
+  {
+   "title": "Galleta Muuu Mantequilla 351 G",
+   "store_id": "olimpica",
+   "category": "despensa",
+   "prev_date": "2026-10-31",
+   "change_date": "2026-11-04",
+   "prev_price": 8550.0,
+   "new_price": 11400.0,
+   "change_pct": 33.33
+  },
+  {
+   "title": "Crema Dental Blanqueadora Colgate Luminous White Brilliant 75ml x2 Unidades",
+   "store_id": "jumbo",
+   "category": "cuidado-personal",
+   "prev_date": "2026-10-31",
+   "change_date": "2026-11-04",
+   "prev_price": 22935.0,
+   "new_price": 30580.0,
+   "change_pct": 33.33
+  },
+  {
+   "title": "Lavaloza Liquido Ak Manzana Verde Doypack 360 Ml",
+   "store_id": "olimpica",
+   "category": "aseo-hogar",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 3150.0,
+   "new_price": 4200.0,
+   "change_pct": 33.33
+  },
+  {
+   "title": "GALLETAS LOPETS PERRO 70G",
+   "store_id": "olimpica",
+   "category": "mascotas",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 3975.0,
+   "new_price": 5300.0,
+   "change_pct": 33.33
+  },
+  {
+   "title": "FRIJOL AZTECA NEGRO 300G",
+   "store_id": "olimpica",
+   "category": "despensa",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 5775.0,
+   "new_price": 7700.0,
+   "change_pct": 33.33
+  },
+  {
+   "title": "Crema Dental Sensodyne Repara y Protege Blanqueadora Alivio de la Sensibilidad Dental 100 G",
+   "store_id": "olimpica",
+   "category": "cuidado-personal",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 29925.0,
+   "new_price": 39900.0,
+   "change_pct": 33.33
+  },
+  {
+   "title": "GASEOSA SPRITE 1.5 L",
+   "store_id": "olimpica",
+   "category": "bebidas",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 3975.0,
+   "new_price": 5300.0,
+   "change_pct": 33.33
+  },
+  {
+   "title": "Harina Salugran de Avena 500 G",
+   "store_id": "olimpica",
+   "category": "despensa",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 5625.0,
+   "new_price": 7500.0,
+   "change_pct": 33.33
+  },
+  {
+   "title": "Café Colcafé Clásico 85 G",
+   "store_id": "olimpica",
+   "category": "despensa",
+   "prev_date": "2026-11-01",
+   "change_date": "2026-11-04",
+   "prev_price": 16290.0,
+   "new_price": 11990.0,
+   "change_pct": -26.4
+  },
+  {
+   "title": "Jabón Coco Varela 3x300gr",
+   "store_id": "jumbo",
+   "category": "cuidado-personal",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 12250.0,
+   "new_price": 15370.0,
+   "change_pct": 25.47
+  },
+  {
+   "title": "Talco Desodorante Olimpica 300 G",
+   "store_id": "olimpica",
+   "category": "cuidado-personal",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 9390.0,
+   "new_price": 7042.0,
+   "change_pct": -25.01
+  },
+  {
+   "title": "Suavizante UltraLimp 2000 Ml",
+   "store_id": "olimpica",
+   "category": "moda",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 6290.0,
+   "new_price": 4717.0,
+   "change_pct": -25.01
+  },
+  {
+   "title": "pasta Fusilli N°35 MONTICELLO",
+   "store_id": "olimpica",
+   "category": "despensa",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 6360.0,
+   "new_price": 7950.0,
+   "change_pct": 25.0
+  },
+  {
+   "title": "Harina Olimpica de Trigo 500 G",
+   "store_id": "olimpica",
+   "category": "despensa",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 1700.0,
+   "new_price": 1275.0,
+   "change_pct": -25.0
+  },
+  {
+   "title": "Yogurt Monteloro Fresa 2000 G",
+   "store_id": "olimpica",
+   "category": "lacteos",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 18560.0,
+   "new_price": 23200.0,
+   "change_pct": 25.0
+  },
+  {
+   "title": "ACEITE GOURMET VITAPLUS 1800ML",
+   "store_id": "olimpica",
+   "category": "despensa",
+   "prev_date": "2026-11-01",
+   "change_date": "2026-11-04",
+   "prev_price": 41300.0,
+   "new_price": 30975.0,
+   "change_pct": -25.0
+  },
+  {
+   "title": "Huevo Kikes Rojo AA X30 Unds",
+   "store_id": "olimpica",
+   "category": "lacteos",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 21512.0,
+   "new_price": 26890.0,
+   "change_pct": 25.0
+  },
+  {
+   "title": "MANTEQUILLA CELEMA GHEE 200G",
+   "store_id": "olimpica",
+   "category": "lacteos",
+   "prev_date": "2026-11-03",
+   "change_date": "2026-11-04",
+   "prev_price": 20320.0,
+   "new_price": 25400.0,
+   "change_pct": 25.0
   }
  ],
  "best_day": [
   {
    "store_id": "jumbo",
    "category": "aseo-hogar",
-   "day_name": "miércoles",
-   "avg_vs_mean_pct": -5.467,
+   "day_name": "domingo",
+   "avg_vs_mean_pct": -4.803,
    "days_sampled": 2,
    "is_reliable": true
   },
@@ -3768,7 +3956,7 @@
    "store_id": "jumbo",
    "category": "bebe",
    "day_name": "viernes",
-   "avg_vs_mean_pct": -3.736,
+   "avg_vs_mean_pct": -4.006,
    "days_sampled": 2,
    "is_reliable": true
   },
@@ -3776,7 +3964,7 @@
    "store_id": "jumbo",
    "category": "bebidas",
    "day_name": "jueves",
-   "avg_vs_mean_pct": -1.027,
+   "avg_vs_mean_pct": -1.579,
    "days_sampled": 2,
    "is_reliable": true
   },
@@ -3784,15 +3972,15 @@
    "store_id": "jumbo",
    "category": "belleza",
    "day_name": "viernes",
-   "avg_vs_mean_pct": -5.198,
+   "avg_vs_mean_pct": -5.501,
    "days_sampled": 2,
    "is_reliable": true
   },
   {
    "store_id": "jumbo",
    "category": "cuidado-personal",
-   "day_name": "miércoles",
-   "avg_vs_mean_pct": -2.682,
+   "day_name": "sábado",
+   "avg_vs_mean_pct": -1.217,
    "days_sampled": 2,
    "is_reliable": true
   },
@@ -3800,7 +3988,7 @@
    "store_id": "jumbo",
    "category": "despensa",
    "day_name": "domingo",
-   "avg_vs_mean_pct": -0.669,
+   "avg_vs_mean_pct": -0.747,
    "days_sampled": 2,
    "is_reliable": true
   },
@@ -3816,7 +4004,7 @@
    "store_id": "jumbo",
    "category": "hogar",
    "day_name": "domingo",
-   "avg_vs_mean_pct": -1.164,
+   "avg_vs_mean_pct": -1.539,
    "days_sampled": 2,
    "is_reliable": true
   },
@@ -3824,7 +4012,7 @@
    "store_id": "jumbo",
    "category": "lacteos",
    "day_name": "viernes",
-   "avg_vs_mean_pct": -1.161,
+   "avg_vs_mean_pct": -1.309,
    "days_sampled": 2,
    "is_reliable": true
   },
@@ -3832,7 +4020,7 @@
    "store_id": "jumbo",
    "category": "mascotas",
    "day_name": "viernes",
-   "avg_vs_mean_pct": -4.712,
+   "avg_vs_mean_pct": -5.321,
    "days_sampled": 2,
    "is_reliable": true
   },
@@ -3840,23 +4028,23 @@
    "store_id": "jumbo",
    "category": "moda",
    "day_name": "domingo",
-   "avg_vs_mean_pct": -8.83,
+   "avg_vs_mean_pct": -8.479,
    "days_sampled": 2,
    "is_reliable": true
   },
   {
    "store_id": "olimpica",
    "category": "aseo-hogar",
-   "day_name": "jueves",
-   "avg_vs_mean_pct": -2.667,
-   "days_sampled": 2,
+   "day_name": "miércoles",
+   "avg_vs_mean_pct": -3.147,
+   "days_sampled": 3,
    "is_reliable": true
   },
   {
    "store_id": "olimpica",
    "category": "bebe",
    "day_name": "jueves",
-   "avg_vs_mean_pct": -4.151,
+   "avg_vs_mean_pct": -4.276,
    "days_sampled": 2,
    "is_reliable": true
   },
@@ -3864,7 +4052,7 @@
    "store_id": "olimpica",
    "category": "bebidas",
    "day_name": "viernes",
-   "avg_vs_mean_pct": -2.427,
+   "avg_vs_mean_pct": -2.511,
    "days_sampled": 2,
    "is_reliable": true
   },
@@ -3872,7 +4060,7 @@
    "store_id": "olimpica",
    "category": "belleza",
    "day_name": "viernes",
-   "avg_vs_mean_pct": -4.794,
+   "avg_vs_mean_pct": -5.144,
    "days_sampled": 2,
    "is_reliable": true
   },
@@ -3880,7 +4068,7 @@
    "store_id": "olimpica",
    "category": "cuidado-personal",
    "day_name": "martes",
-   "avg_vs_mean_pct": -4.212,
+   "avg_vs_mean_pct": -4.391,
    "days_sampled": 3,
    "is_reliable": true
   },
@@ -3888,31 +4076,31 @@
    "store_id": "olimpica",
    "category": "despensa",
    "day_name": "martes",
-   "avg_vs_mean_pct": -3.044,
+   "avg_vs_mean_pct": -3.097,
    "days_sampled": 3,
    "is_reliable": true
   },
   {
    "store_id": "olimpica",
    "category": "electrohogar",
-   "day_name": "domingo",
-   "avg_vs_mean_pct": -0.964,
-   "days_sampled": 2,
+   "day_name": "miércoles",
+   "avg_vs_mean_pct": -1.695,
+   "days_sampled": 3,
    "is_reliable": true
   },
   {
    "store_id": "olimpica",
    "category": "hogar",
    "day_name": "miércoles",
-   "avg_vs_mean_pct": -1.344,
-   "days_sampled": 2,
+   "avg_vs_mean_pct": -1.153,
+   "days_sampled": 3,
    "is_reliable": true
   },
   {
    "store_id": "olimpica",
    "category": "lacteos",
    "day_name": "martes",
-   "avg_vs_mean_pct": -4.749,
+   "avg_vs_mean_pct": -5.145,
    "days_sampled": 3,
    "is_reliable": true
   },
@@ -3920,7 +4108,7 @@
    "store_id": "olimpica",
    "category": "mascotas",
    "day_name": "sábado",
-   "avg_vs_mean_pct": -12.721,
+   "avg_vs_mean_pct": -12.766,
    "days_sampled": 2,
    "is_reliable": true
   },
@@ -3928,24 +4116,24 @@
    "store_id": "olimpica",
    "category": "moda",
    "day_name": "martes",
-   "avg_vs_mean_pct": -3.152,
+   "avg_vs_mean_pct": -3.223,
    "days_sampled": 3,
    "is_reliable": true
   }
  ],
  "summary": {
   "first_date": "2026-10-20",
-  "last_date": "2026-11-03",
-  "days": 15,
-  "offers": 2441,
-  "observations": 29084,
+  "last_date": "2026-11-04",
+  "days": 16,
+  "offers": 2455,
+  "observations": 31034,
   "stores": [
    "jumbo",
    "olimpica"
   ],
   "categories": 11,
-  "price_changes": 3397,
-  "generated_at": "2026-11-03T14:43:14-05:00",
+  "price_changes": 3772,
+  "generated_at": "2026-11-04T14:58:38-05:00",
   "source": "https://napa-api.onrender.com/api/search (solo ofertas source=live)"
  }
 }
